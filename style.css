@@ -1,0 +1,51 @@
+ body {
+     padding: 0px;
+margin:0px;
+box-sizing: border-box;
+}
+body{
+    background-color: rgb(	220,20,60);
+}
+header{
+    width: 90%;
+    height: 95%;
+    background-color: rgb(169, 169, 169);
+
+}
+.cab-nav{
+    width: 100%;
+    padding: 20px;
+    text-align: right;
+    position: fixed;
+    top: 0px;
+    }
+    .cab-nav ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 10px 60px;
+        color: white;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+.cab-nav ul li a{
+    text-decoration: none;
+    color: azure;
+
+}
+.nomb-logo{
+    width: 300px;
+    padding: 0px 20px;
+    float: left;
+    position: relative;
+    top: 5%;
+    left: 2%;
+    color: #fff;
+    font-size: 30px;
+
+}
+.logo-img{
+    width: 80px;
+    position: absolute;
+    transform: translateX(-60%) translateY(-60%);
+}
